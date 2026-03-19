@@ -147,7 +147,6 @@ psql -d lighthouse -U postgres
 
 - **LinkedIn**: [diego-pablo](https://www.linkedin.com/in/diego-pablo/)
 - **Portfolio**: [diego-pablo.vercel.app](https://diego-pablo.vercel.app/)
-- **GitHub**: [DiegoPablo2021](https://github.com/DiegoPablo2021)
 
 ---
 
