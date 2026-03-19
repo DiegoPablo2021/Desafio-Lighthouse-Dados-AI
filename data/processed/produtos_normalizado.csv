@@ -1,0 +1,151 @@
+name,price,code,actual_category
+Transponder AIS Maré Magnum,,1,eletrônicos
+Transponder Furuno Marlin,,2,eletrônicos
+Radar Furuno Pulse Leviathan,,3,eletrônicos
+Rádio AIS Hydro Tidal Zen,,4,eletrônicos
+Piloto Automático Furuno Storm,,5,eletrônicos
+Transponder AIS Vector,,6,eletrônicos
+Radar AIS Zen,,7,eletrônicos
+GPS AIS Zen,,8,eletrônicos
+Transponder AIS Titan Pulse,,9,eletrônicos
+Piloto Automático Simrad Titan Flux Magnum,,10,eletrônicos
+GPS Furuno Swift Leviathan Poseidon,,11,eletrônicos
+GPS AIS Drift Flux Vox,,12,eletrônicos
+Radar Simrad Boost,,13,eletrônicos
+Rádio Furuno Zen Swift,,14,eletrônicos
+Radar Garmin Tidal Thrust,,15,eletrônicos
+Sonda Garmin Axis,,16,eletrônicos
+Rádio AIS Oceanic Pulse,,17,eletrônicos
+Rádio Simrad Axis,,18,eletrônicos
+Sonda Lowrance Tidal Storm Vox,,19,eletrônicos
+Radar AIS Marlin,,20,eletrônicos
+GPS AIS Nautic Thrust,,21,eletrônicos
+Transponder Furuno Force Ion,,22,eletrônicos
+Piloto Automático Furuno Torque Peak,,23,eletrônicos
+GPS AIS Orca Marlin Velocity,,24,eletrônicos
+Rádio Lowrance Nitro Thrust Barracuda,,25,eletrônicos
+Piloto Automático Furuno Core Boost Flux,,26,eletrônicos
+GPS Garmin Vortex Maré Drift,,27,eletrônicos
+Piloto Automático AIS Core,,28,eletrônicos
+Rádio Simrad Orca,,29,eletrônicos
+Transponder AIS Boost,,30,eletrônicos
+Transponder Furuno Pulse Axis,,31,eletrônicos
+Sonda AIS Impulse Oceanic Zenith,,32,eletrônicos
+Transponder Garmin Drift Vortex Marlin,,33,eletrônicos
+Transponder AIS Helix Torque,,34,eletrônicos
+Radar Furuno Swift,,35,eletrônicos
+Radar Lowrance Aqua Pulse,,36,eletrônicos
+GPS Lowrance Evo Storm Drift,,37,eletrônicos
+Rádio AIS Force,,38,eletrônicos
+GPS Furuno Vector,,39,eletrônicos
+Sonda Furuno Maré Tidal,,40,eletrônicos
+GPS Simrad Flow Pulse,,41,eletrônicos
+Transponder Lowrance Axis,,42,eletrônicos
+Sonda AIS Barracuda,,43,eletrônicos
+GPS Simrad Zen Hydra Peak,,44,eletrônicos
+GPS Furuno Current,,45,eletrônicos
+Sonda AIS Magnum Boost,,46,eletrônicos
+Rádio Simrad Tidal Aqua,,47,eletrônicos
+GPS Furuno Magnum Drift,,48,eletrônicos
+Sonda Furuno Swift,,49,eletrônicos
+Piloto Automático Simrad Poseidon Magnum,,50,eletrônicos
+Motor Diesel Tohatsu Evo Zenith 16HP,,51,propulsão
+Motor Diesel Honda Zen Tidal Mako 26HP,,52,propulsão
+Motor Elétrico Torqeedo Zen Titan Hydra 129HP,,53,propulsão
+Motor de Popa Yamaha Evo Dash 155HP,,54,propulsão
+Motor Diesel Volvo Flow Oceanic 259HP,,55,propulsão
+Motor Elétrico Torqeedo Velocity Swift 74HP,,56,propulsão
+Motor de Popa Honda Vector Kinetic 174HP,,57,propulsão
+Motor de Popa Tohatsu Ion Core Nautic 53HP,,58,propulsão
+Motor Diesel Yanmar Hydro Magnum Boost 267HP,,59,propulsão
+Motor de Popa Honda Velocity Drift 258HP,,60,propulsão
+Motor Diesel Honda Prime 84HP,,61,propulsão
+Motor Diesel Yanmar Velocity 37HP,,62,propulsão
+Motor Elétrico Torqeedo Ion Orca Vox 186HP,,63,propulsão
+Motor Elétrico Yamaha Swift Drift Current 265HP,,64,propulsão
+Motor de Popa Torqeedo Nautic Swift 223HP,,65,propulsão
+Motor de Popa Tohatsu Poseidon Helix Prime 135HP,,66,propulsão
+Motor de Popa Yamaha Mako 108HP,,67,propulsão
+Motor de Popa Honda Ion Vox Prime 163HP,,68,propulsão
+Motor de Popa Torqeedo Ultra Impulse 292HP,,69,propulsão
+Motor Diesel Parsun Boost Helix Velocity 146HP,,70,propulsão
+Motor Elétrico Torqeedo Pulse 300HP,,71,propulsão
+Motor de Popa Volvo Hydro Dash 256HP,,72,propulsão
+Motor de Popa Torqeedo Core Hydra Flux 162HP,,73,propulsão
+Motor de Popa Honda Torque 228HP,,74,propulsão
+Motor Diesel Volvo Flow Leviathan Maré 187HP,,75,propulsão
+Motor Diesel Honda Aero 205HP,,76,propulsão
+Motor Diesel Tohatsu Vector 197HP,,77,propulsão
+Motor Elétrico Honda Mako Axis 131HP,,78,propulsão
+Motor Diesel Tohatsu Zenith 60HP,,79,propulsão
+Motor de Popa Volvo Maré 69HP,,80,propulsão
+Motor Elétrico Torqeedo Barracuda Magnum Helix 101HP,,81,propulsão
+Motor Elétrico Volvo Nautic Vox 118HP,,82,propulsão
+Motor Diesel Yanmar Dash Nitro 184HP,,83,propulsão
+Motor de Popa Torqeedo Zenith Peak Thrust 212HP,,84,propulsão
+Motor de Popa Parsun Impulse 162HP,,85,propulsão
+Motor Diesel Volvo Helix Evo Force 144HP,,86,propulsão
+Motor Elétrico Volvo Boost 225HP,,87,propulsão
+Motor Diesel Tohatsu Kinetic Poseidon 113HP,,88,propulsão
+Motor Elétrico Yamaha Orca Storm Zenith 11HP,,89,propulsão
+Motor de Popa Yamaha Thrust Marlin Nexus 182HP,,90,propulsão
+Motor Elétrico Tohatsu Zenith Oceanic 113HP,,91,propulsão
+Motor Elétrico Yamaha Nautic Kraken 133HP,,92,propulsão
+Motor Elétrico Yamaha Flow 204HP,,93,propulsão
+Motor de Popa Volvo Magnum 276HP,,94,propulsão
+Motor Diesel Honda Leviathan 133HP,,95,propulsão
+Motor de Popa Tohatsu Boost Swift 126HP,,96,propulsão
+Motor de Popa Tohatsu Evo 168HP,,97,propulsão
+Motor Diesel Parsun Velocity Abyss Orca 235HP,,98,propulsão
+Motor Elétrico Honda Flux Ultra 273HP,,99,propulsão
+Motor Elétrico Honda Vector Abyss 220HP,,100,propulsão
+Cabo de Nylon Delta Vortex,,101,ancoragem
+Cabo de Nylon Bruce Nexus,,102,ancoragem
+Âncora Delta Swift,,103,ancoragem
+Cabo de Nylon Delta Zen Vortex Storm,,104,ancoragem
+Cabo de Nylon Danforth Prime,,105,ancoragem
+Âncora Danforth Nitro Titan Vox,,106,ancoragem
+Boia de Arqueamento Bruce Tidal Marlin,,107,ancoragem
+Boia de Arqueamento Bruce Titan,,108,ancoragem
+Cabo de Nylon Danforth Evo Aqua Mako,,109,ancoragem
+Corrente Bruce Current,,110,ancoragem
+Boia de Arqueamento Danforth Aero Dash,,111,ancoragem
+Corrente Danforth Tidal,,112,ancoragem
+Âncora Delta Mako Ultra,,113,ancoragem
+Boia de Arqueamento Danforth Tidal Zen Swift,,114,ancoragem
+Cabo de Nylon Delta Force Magnum Leviathan,,115,ancoragem
+Cabo de Nylon Delta Velocity Oceanic Abyss,,116,ancoragem
+Corrente Danforth Zen Abyss Axis,,117,ancoragem
+Boia de Arqueamento Delta Force Vox,,118,ancoragem
+Âncora Bruce Aqua,,119,ancoragem
+Boia de Arqueamento Danforth Flux Tidal,,120,ancoragem
+Boia de Arqueamento Delta Nexus,,145,ancoragem
+Âncora Danforth Oceanic Helix Flux,,121,ancoragem
+Corrente Danforth Zenith Oceanic Torque,,122,ancoragem
+Cabo de Nylon Danforth Orca Aero,,123,ancoragem
+Corrente Delta Axis,,124,ancoragem
+Cabo de Nylon Danforth Kinetic,,125,ancoragem
+Corrente Danforth Hydro,,126,ancoragem
+Cabo de Nylon Delta Velocity Core Mako,,127,ancoragem
+Boia de Arqueamento Bruce Marlin Hydra,,128,ancoragem
+Corrente Delta Boost,,129,ancoragem
+Boia de Arqueamento Delta Zen Boost Vortex,,130,ancoragem
+Boia de Arqueamento Danforth Core Vortex,,131,ancoragem
+Corrente Bruce Nautic Evo,,132,ancoragem
+Âncora Bruce Core Pulse,,133,ancoragem
+Âncora Delta Storm Vox,,134,ancoragem
+Cabo de Nylon Danforth Titan Poseidon,,135,ancoragem
+Cabo de Nylon Bruce Flux Hydro,,136,ancoragem
+Âncora Danforth Impulse,,137,ancoragem
+Boia de Arqueamento Delta Peak Boost Thrust,,138,ancoragem
+Boia de Arqueamento Danforth Torque,,139,ancoragem
+Boia de Arqueamento Bruce Dash Titan Pulse,,140,ancoragem
+Boia de Arqueamento Bruce Nexus Abyss,,141,ancoragem
+Âncora Danforth Vector Evo,,142,ancoragem
+Âncora Delta Hydra Kraken Velocity,,143,ancoragem
+Boia de Arqueamento Bruce Barracuda,,144,ancoragem
+Corrente Delta Vox Ion,,146,ancoragem
+Corrente Danforth Force Leviathan Impulse,,147,ancoragem
+Âncora Delta Force Barracuda Mako,,148,ancoragem
+Cabo de Nylon Bruce Core,,149,ancoragem
+Cabo de Nylon Danforth Magnum Vox,,150,ancoragem
