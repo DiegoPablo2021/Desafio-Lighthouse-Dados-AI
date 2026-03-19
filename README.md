@@ -1,7 +1,6 @@
 <div align="center">
   <img src="banner.png" alt="Capa do Projeto - Análise Estratégica LH Nautical" width="100%">
   <br><br>
-  <img src="project_demo_video.webp" alt="Dashboard Demo Video" width="100%">
 </div>
 
 # Desafio Lighthouse - Dados & AI
