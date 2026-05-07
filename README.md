@@ -1,159 +1,135 @@
-<div align="center">
-  <img src="banner.png" alt="Capa do Projeto - Análise Estratégica LH Nautical" width="100%">
-  <br><br>
-</div>
+# Lighthouse Dados AI
 
-# Desafio Lighthouse - Dados & AI
+![Python](https://img.shields.io/badge/Python-Data%20Science-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytical%20Queries-336791?logo=postgresql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Recommendation-F7931E?logo=scikit-learn&logoColor=white)
 
-## Visão Geral
+End-to-end data science challenge built around exploratory analysis, predictive reasoning, and recommendation logic for the LH Nautical business context. The project is organized to show analytical depth, modular delivery, and decision-oriented interpretation instead of isolated notebook output.
 
-Análise completa dos dados da **LH Nautical** (2023-2024) com foco em **EDA, tratamento de dados, modelagem preditiva e sistemas de recomendação**. O projeto implementa uma pipeline end-to-end de Data Science orientada pelos princípios de organização e clareza, contendo soluções para as 8 questões do desafio (Q1-Q8).
+## Executive Summary
 
-Neste repositório, você encontrará a **resolução modularizada** de cada questão (arquivos `.py` e `.sql`) que deve ser submetida na plataforma de respostas, além de um **Relatório Executivo** detalhado e um **Notebook Consolidado** contendo os insights e visualizações unificadas.
+The challenge covers eight analytical questions across exploration, cleaning, forecasting, and recommendation. This repository packages those answers as a cleaner portfolio artifact with:
 
----
+- modular Python scripts for each deliverable
+- SQL queries for the required analytical questions
+- a consolidated notebook for business-facing storytelling
+- reusable `src/` modules for data, features, and models
+- unit tests for the solution layer
 
-## Objetivos e Entregáveis
+## Business Problem
 
-| Questão | Tema | Entregáveis |
-|---------|------|-------------|
-| **Q1** | Exploração e Diagnóstico (EDA) | Python + SQL + Interpretação |
-| **Q2** | Normalização de Produtos | Python |
-| **Q3** | Custos de Importação (JSON → CSV) | Python |
-| **Q4** | Análise de Prejuízos (câmbio BCB) | Python + SQL + Interpretação |
-| **Q5** | Clientes Fiéis (Top 10 + Categorias) | Python + SQL + Interpretação |
-| **Q6** | Dimensão Calendário (dias sem venda) | Python + SQL + Interpretação |
-| **Q7** | Previsão de Demanda (Média Móvel 7d) | Python + Interpretação |
-| **Q8** | Sistema de Recomendação (Cosseno) | Python + Interpretação |
+The objective was to examine transactional and product data, uncover meaningful patterns, and generate outputs that support real commercial reasoning, including:
 
----
+- product normalization
+- loss analysis
+- loyal-customer interpretation
+- calendar and demand analysis
+- recommendation logic
 
-## Estrutura do Projeto
+The value of the case is not any single chart or model. It is the ability to move from raw data to structured business interpretation.
 
-```
+## Solution Overview
+
+### 1. Exploration And Data Diagnosis
+
+The project starts by profiling the quality, structure, and analytical signal of the source data before introducing transformations.
+
+### 2. Data Preparation
+
+Feature and cleaning logic standardize products, costs, and supporting analytical tables required for downstream interpretation.
+
+### 3. Predictive And Recommendation Logic
+
+The repository includes forecasting and similarity-based recommendation workflows to show broader data science coverage.
+
+### 4. Business-Facing Delivery
+
+The final notebook consolidates the work into a more coherent narrative for review and presentation.
+
+## Repository Structure
+
+```text
 Desafio-Lighthouse-Dados-AI/
-│
 ├── data/
-│   ├── raw/                        # Dados originais (fornecidos)
-│   │   ├── custos_importacao.json
-│   │   ├── produtos_raw.csv
-│   │   └── vendas_2023_2024.csv
-│   │
-│   └── processed/                  # Dados processados (gerados pelos scripts)
-│       ├── custos_importacao.csv
-│       ├── dim_calendario.csv
-│       ├── previsao_motor_popa_janeiro_2024.csv
-│       ├── produtos_normalizado.csv
-│       └── recomendacoes_gps_garmin.csv
-│
-├── solucoes_questoes/           # Scripts Python com respostas submissíveis
-│   ├── q1_exploracao_diagnostico.py    # Q1: EDA + Q1.3 Interpretação
-│   ├── q2_normalizacao.py              # Q2: Padronização de categorias
-│   ├── q3_custos.py                    # Q3: JSON → CSV
-│   ├── q4_prejuizo.py                  # Q4: Prejuízos + câmbio
-│   ├── q5_clientes_fieis.py            # Q5: Top 10 + Q5.3 Explicação
-│   ├── q5_2_categoria_mais_vendida.py  # Q5.2: Categoria mais vendida
-│   ├── q6_calendario.py                # Q6: Calendário completo + Q6.3
-│   ├── q7_1_modelo_baseline.py         # Q7: MA7 + Q7.2/Q7.3
-│   └── q8_1_recomendacao.py            # Q8: Cosseno + Q8.2/Q8.3
-│
-├── sql/                         # Queries SQL (PostgreSQL) para submissão
-│   ├── q1_1_eda_basico.sql             # Q1.1: métricas EDA
-│   ├── q4_prejuizo_produtos.sql        # Q4.1: prejuízos com câmbio
-│   ├── q5_2_categoria_mais_vendida.sql # Q5.1: clientes fiéis + categorias
-│   └── q6_1_calendario_vendas.sql      # Q6.1: dimensão calendário
-│
-├── notebooks/                   # Análises exploratórias (Jupyter)
-│   ├── 06_relatorio_consolidado.ipynb  # ENTREGA PRINCIPAL
-│   └── drafts/                         # Notebooks exploratórios arquivados
-│       ├── 01_eda_vendas.ipynb
-│       ├── 02_tratamento_e_features.ipynb
-│       ├── 03_modelo_previsao_e_insights.ipynb
-│       ├── 04_modelo_previsao.ipynb
-│       └── 05_recomendacao.ipynb
-│
-├── src/                         # Módulos reutilizáveis
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 06_relatorio_consolidado.ipynb
+│   └── drafts/
+├── solucoes_questoes/
+├── sql/
+├── src/
 │   ├── data/
 │   ├── features/
 │   ├── models/
 │   └── utils.py
-│
-├── tests/                       # Testes de unidade
-│   └── test_solucoes.py
-│
-├── README.md                       # Este arquivo referencial
-├── RELATORIO_EXECUTIVO.md          # Relatório voltado para tomada de decisões gerenciais
-└── requirements.txt                # Dependências Python
+├── tests/
+├── README.md
+└── requirements.txt
 ```
 
----
+## Deliverables
 
-## Como Executar
+- `solucoes_questoes/`: Python answers for the challenge questions
+- `sql/`: SQL outputs required by the exercise
+- `notebooks/06_relatorio_consolidado.ipynb`: consolidated analytical narrative
+- `data/processed/`: generated outputs used in the analysis
 
-### 1. Configurar Ambiente
+## Technical Stack
+
+- Python
+- pandas / numpy
+- scikit-learn
+- SQL
+- Jupyter
+
+## How To Run
+
+### 1. Create and activate a virtual environment
 
 ```bash
-# Criar ambiente virtual
 python -m venv .venv
-
-# Ativar (Windows - PowerShell)
 .\.venv\Scripts\Activate.ps1
+```
 
-# Ativar (Linux/macOS)
-source .venv/bin/activate
+### 2. Install dependencies
 
-# Instalar dependências
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Executar Scripts (Respostas individuais)
-Os códigos que deverão ser submetidos no portal da prova encontram-se em `solucoes_questoes/` (Python) e `sql/` (SQL). Você pode processar as análises caso precise inspecionar os resultados:
+### 3. Run the solution scripts
 
 ```bash
 python solucoes_questoes/q1_exploracao_diagnostico.py
 python solucoes_questoes/q2_normalizacao.py
-# ... e assim por diante para todas as questões.
+python solucoes_questoes/q3_custos.py
+python solucoes_questoes/q4_prejuizo.py
+python solucoes_questoes/q5_clientes_fieis.py
+python solucoes_questoes/q6_calendario.py
+python solucoes_questoes/q7_1_modelo_baseline.py
+python solucoes_questoes/q8_1_recomendacao.py
 ```
 
-### 3. Notebook Consolidado (Entrega Analítica Final)
-Para a análise em profundidade, recomenda-se iniciar o Jupyter Server e ler/executar o notebook final da entrega, onde todas as interações e cruzamentos de dados foram gerados graficamente.
-O arquivo principal é:
-`notebooks/06_relatorio_consolidado.ipynb`
-
-### 4. Executar SQL (PostgreSQL)
+### 4. Open the consolidated notebook
 
 ```bash
-psql -d lighthouse -U postgres
-
-# Dentro do psql:
-\i sql/q1_1_eda_basico.sql
-\i sql/q4_prejuizo_produtos.sql
-\i sql/q5_2_categoria_mais_vendida.sql
-\i sql/q6_1_calendario_vendas.sql
+jupyter notebook notebooks/06_relatorio_consolidado.ipynb
 ```
 
----
+### 5. Run tests
 
-## Dependências Relevantes
+```bash
+pytest tests/test_solucoes.py
+```
 
-| Biblioteca | Versão Mín. | Uso |
-|------------|-------------|-----|
-| pandas | 2.2.0 | Manipulação de dados |
-| numpy | 1.26.0 | Operações numéricas |
-| scikit-learn | 1.4.0 | Similaridade de cosseno |
-| requests | 2.31.0 | API (câmbio BCB) |
-| jupyter | 1.0.0 | Notebook interativo (`06_relatorio_consolidado.ipynb`) |
+## Portfolio Relevance
 
----
+This project is useful in a portfolio because it demonstrates a balanced data science profile: data understanding, feature reasoning, predictive thinking, recommendation framing, and the ability to communicate analytical complexity in a way that is easier for business stakeholders to consume.
 
-## Autor
+## Author
 
 **Diego Pablo**
 
-- **LinkedIn**: [diego-pablo](https://www.linkedin.com/in/diego-pablo/)
-- **Portfolio**: [diego-pablo.vercel.app](https://diego-pablo.vercel.app/)
-
----
-
-**Desafio Lighthouse - Indicium**  
-**Última atualização**: Março de 2026
+- Portfolio: [diego-pablo.vercel.app](https://diego-pablo.vercel.app/)
+- LinkedIn: [linkedin.com/in/diego-pablo](https://www.linkedin.com/in/diego-pablo/)
